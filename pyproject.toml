@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "tasker_shiv_python_single_exec_demo"
+version = "0.1.0"
+description = "Demo of creating a self-contained pure-Python binary with Shiv and Tasker for CLI development"
+authors = ["Michal Bultrowicz <michal.bultrowicz@gmail.com>"]
+license = "MIT"
+
+[tool.poetry.dependencies]
+python = "^3.8"
+tasker = "^0.1.2"
+
+[tool.poetry.dev-dependencies]
+shiv = "^0.1.1"
+
+[build-system]
+requires = ["poetry>=0.12"]
+build-backend = "poetry.masonry.api"
